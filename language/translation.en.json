@@ -1,0 +1,21 @@
+{
+    "INVALID_REQUEST" : "Request Is Not Valid.",
+    "PLEASE_TRY_AGAIN": "Please Try Again.",
+    "DATA_FOUND" : "Data Found",
+    "FIELD_REQUIRED": "{{FIELD}} is required.",
+    "EXIST": "{{FIELD}} is already registerd with this system.",
+    "ACTIVE": "{{FIELD}} is active with this system.",
+    "NOT_VALID": "{{FIELD}} is not valid.",
+    "NOT_IN_TIME_RANGE":"You are not permited to login at this timestamp",
+    "NOT_WITHIN_AREA":"Based on your location you are not allowed to login",
+    "NOT_AUTHORIZED" : "You are not authorized to perform this action.",
+    "NO_RECORD_FOUND":"No Record Found.",
+    "UPDATED" : "{{FIELD}} updated successfully.",
+    "INSERTED" : "{{FIELD}} successfully inserted.",
+    "DELETED" : "{{FIELD}} deleted successfully.",
+    "LOGIN_SUCCESSFUL" : "student login successfully.",
+    "LOGOUT_SUCCESSFUL" : "student logout successfully.",
+    "CHECKIN_SUCCESSFUL" : "student check successfully.",
+    "USER_NOT_FOUND" : "student name or password is not valid.",
+    "NO_UPDATE" : "Nothing to update."
+ }

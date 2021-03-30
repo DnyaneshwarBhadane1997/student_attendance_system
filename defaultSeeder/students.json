@@ -1,0 +1,19 @@
+[{
+  "_id": "6061f9004e06ac1d69596a57",
+  "name": "dn_p",
+  "password": "password",
+  "class_id": "6061c0f9cdc3422401719fc3",
+  "__v": 0
+},{
+  "_id": "6061f9174e06ac1d69596a58",
+  "name": "dn_j",
+  "password": "password",
+  "class_id": "6061d9651847071160a8f9de",
+  "__v": 0
+},{
+  "_id": "6061f92b4e06ac1d69596a59",
+  "name": "dn_s",
+  "password": "password",
+  "class_id": "6061f89e7e48570e602cb590",
+  "__v": 0
+}]

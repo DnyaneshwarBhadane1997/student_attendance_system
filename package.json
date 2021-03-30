@@ -1,0 +1,31 @@
+{
+  "name": "student_attendance_system",
+  "version": "1.0.0",
+  "description": "This is student location base system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DnyaneshwarBhadane1997/student_attendance_system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DnyaneshwarBhadane1997/student_attendance_system/issues"
+  },
+  "homepage": "https://github.com/DnyaneshwarBhadane1997/student_attendance_system#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jm-ez-l10n": "^1.0.0",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.2",
+    "point-in-polygon": "^1.1.0",
+    "router": "^1.3.5"
+  }
+}
