@@ -66,7 +66,7 @@ studentsCtr.checkIn = (req, res) => {
     .then(function (studentDetails) {
         let long = req.body.long,
             lat = req.body.lat;
-            if (studentsUtil.isWithinTime(studentDetails.deptData.startTime , studentDetails.deptData.endTime)) {
+            if (!studentsUtil.isWithinTime(studentDetails.deptData.startTime , studentDetails.deptData.endTime)) {
                 return res.status(401).json({ "message": req.t("NOT_IN_TIME_RANGE"), status_code: 401 });
             }
             if (!studentsUtil.isWithinRange(studentDetails.deptData.range, lat, long)) {
@@ -93,7 +93,7 @@ studentsCtr.loginstudent = (req, res) => {
             
             let long = req.body.long,
                 lat = req.body.lat;
-            if (studentsUtil.isWithinTime()) {
+            if (!studentsUtil.isWithinTime(studentDetails.deptData.startTime , studentDetails.deptData.endTime)) {
                 return res.status(401).json({ "message": req.t("NOT_IN_TIME_RANGE"), status_code: 401 });
             }
             if (!studentsUtil.isWithinRange(studentDetails.deptData.range, lat, long)) {
